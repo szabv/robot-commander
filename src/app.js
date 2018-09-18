@@ -48,7 +48,7 @@ const runAppWithIOPlugins = (getCommandsPlugin, outputReportPlugin) => {
 };
 
 const runApp = () => { 
-  runAppWithIOPlugins(getCommands, showResult);
+  runAppWithIOPlugins(getCommands, showRobotPlacement);
 }
 
 export {
