@@ -1,0 +1,20 @@
+{
+  "name": "robot-commander",
+  "version": "0.0.1",
+  "description": "Move the robot around a table via the terminal or an input file.",
+  "scripts": {
+    "test": "jest-webpack",
+    "test:watch": "jest-webpack --watch",
+    "build": "webpack"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/szabv/robot-commander.git",
+  "author": "szabv <szab.virag@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-webpack": "^0.5.1",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
