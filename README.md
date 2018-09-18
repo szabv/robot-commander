@@ -32,3 +32,5 @@ Or directly (less noise in the output);
 ```
 node ./dist/robot.js ./test-files/wondering-robot.txt
 ```
+
+Substitute your favourite robot command file for wondering-robot.txt and enjoy the satisfaction of being in command.
