@@ -1,6 +1,7 @@
 import fs from 'fs';
 import { Robot } from './robot';
-import { commands, directionLabels } from './robot/constants'
+import { directionLabels } from './robot/constants'
+import { commands } from './command-parser/constants'
 import { parsCommand } from './command-parser';
 
 const readTextFile = (fileName) => {

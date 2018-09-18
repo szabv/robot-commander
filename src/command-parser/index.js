@@ -1,4 +1,5 @@
-import { directions, commands } from "../robot/constants";
+import { directions } from "../robot/constants";
+import { commands } from "./constants";
 
 const canParsAsInteger = (num) => {
   return parseFloat(num, 10) === parseInt(num, 10);
