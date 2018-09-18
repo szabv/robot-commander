@@ -19,7 +19,7 @@ describe('Parses commands from a string into a format that can be passed to Robo
     expect(result.command).toBe(commands.PLACE);
     expect(result.position.x).toBe(-1);
     expect(result.position.y).toBe(0);
-    expect(result.facing).toBe(directions.NORTH);
+    expect(result.facing).toBe(directions.EAST);
   });
 
   test('MOVE', () => {
