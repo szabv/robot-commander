@@ -5,7 +5,9 @@
   "scripts": {
     "test": "jest-webpack",
     "test:watch": "jest-webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "start": "node ./dist/robot.js"
   },
   "main": "index.js",
   "repository": "https://github.com/szabv/robot-commander.git",
@@ -16,5 +18,8 @@
     "jest-webpack": "^0.5.1",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "file-or-stdin": "^2.0.0-2"
   }
 }
